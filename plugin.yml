@@ -1,0 +1,17 @@
+name: SimpleSpawners
+main: com.pixelgriffin.simplespawners.SimpleSpawners
+version: 1.0.4b1
+commands:
+  ss:
+    description: /ss give [player] [type] [amount]
+    usage: /ss
+permissions:
+  SimpleSpawner.give:
+    default: op
+    description: allows the /ss give command to be used.
+  SimpleSpawner.get:
+    default: true
+    description: allows players to get spawners with silk touch.
+  SimpleSpawner.get.nosilk:
+    default: op
+    description: allows players to get spawners without silk touch.
