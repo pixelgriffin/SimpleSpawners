@@ -1,6 +1,6 @@
 name: SimpleSpawners
 main: com.pixelgriffin.simplespawners.SimpleSpawners
-version: 1.0.4b2
+version: 1.0.4b1
 commands:
   ss:
     description: /ss give [player] [type] [amount]

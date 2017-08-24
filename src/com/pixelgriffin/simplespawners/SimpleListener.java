@@ -65,9 +65,9 @@ public class SimpleListener implements Listener {
 			}
 			
 			Block setBlock = evt.getBlock();
-			setBlock.setType(Material.MOB_SPAWNER);
 			CreatureSpawner s = (CreatureSpawner)setBlock.getState();
 			s.setSpawnedType(EntityType.valueOf(sType.split(" ")[0].toUpperCase()));
+			s.update();
 		}
 	}
 }
